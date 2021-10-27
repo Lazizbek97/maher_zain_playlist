@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
-CLIENT_ID = "6a118825a92f4d5891cb9f0c74b50b5b"
-CLIENT_SECRET = "23ba76a828aa4dc2818bae20f9ef00e6"
+CLIENT_ID = "Your Client ID on Spotify"
+CLIENT_SECRET = "Your Client Secret on Spotift"
 
 response = requests.get("https://www.top50songs.info/artist.php?artist=Maher%20Zain&v=12110664")
 top_musics = response.text
